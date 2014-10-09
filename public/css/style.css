@@ -87,6 +87,10 @@ h1, h2, h3, h4, h5, h6 {
 	font-weight: 300;
 }
 
+section {
+  padding-bottom: 50px;
+}
+
 /* ==========================================================================
    MENU CONFIGURATION
    ========================================================================== */
@@ -337,7 +341,6 @@ h1, h2, h3, h4, h5, h6 {
 /* Portfolio Wrap Section */
 #portfoliowrap {
 	display: block;
-	margin-top: 80px;
 	margin-bottom: 80px;
 }
 
@@ -371,6 +374,30 @@ h1, h2, h3, h4, h5, h6 {
 
 .portfolio {
 	background-image: url(../img/portfolio-sep.jpg);
+}
+
+/* Resume Wrap */
+
+#resumewrap {
+  display: block;
+  margin-bottom: 80px;
+}
+
+#resumewrap h1 {
+  font-weight: 300;
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+#resumewrap i {
+  font-size: 50px;
+}
+
+#resumewrap p {
+  margin-left: 20px;
+}
+#resumewrap h4 {
+  margin-left: 10px;
 }
 
 /* Service Wrap */
@@ -424,6 +451,11 @@ h1, h2, h3, h4, h5, h6 {
 
 #contactwrap p {
 	color: #f2f2f2;
+}
+
+#contactwrap span.contact-info-header {
+  width: 3em;
+  display: inline-block;
 }
 
 #contactwrap small {
