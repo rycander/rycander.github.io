@@ -258,8 +258,7 @@ section {
 div.img-holder{
   background-color: #808080;
   border-radius: 50px;
-  border-width: 5px;
-  border-color: black;
+  padding: 0px;
   margin: auto;
   display: inline-block;
 }
@@ -267,8 +266,6 @@ div.img-holder{
 img.img-responsive{
   padding: 5px;
   border-radius: 50px;
-  border-width: 5px;
-  border-color: black;
 }
 
 
